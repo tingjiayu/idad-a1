@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: "Lora", serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans&display=swap");
+
+/* Base styles */
+body {
+  background-color: #fffaf7;
+  font-size: 1.1rem;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #333;
+  padding: 2rem;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Main Title */
+h1 {
+  color: #c03f66;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Subtitle */
+h2 {
+  color: #a84261;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: normal;
+}
+
+/* Section Headers */
+h3 {
+  color: #b14663;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed #d78a9c;
+  padding-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+}
+
+/* Strong */
+strong {
+  font-weight: bold;
+  color: inherit;
+}
+
+/* Links */
+a:hover {
+  color: #a84261;
+  border-bottom: 1px solid #a84261;
+}
+
+.links a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #c95c7c;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-bottom: 1px dotted #c95c7c;
+}
+.links {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+section {
+  background-color: white;
+  border: 1px dashed #eba5b2;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
