@@ -3,7 +3,6 @@
 body {
   font-family: "Lora", serif;
 }
-@import url("https://fonts.googleapis.com/css2?family=Winky+Sans&display=swap");
 
 /* Base styles */
 body {
@@ -53,6 +52,7 @@ p {
   margin-bottom: 1.2rem;
   font-size: 1.05rem;
 }
+*/
 
 /* Strong */
 strong {
@@ -79,9 +79,10 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+/* section  */
 section {
-  background-color: white;
-  border: 1px dashed #eba5b2;
+  background-color: #ffffff;
+  border: 2px dashed #eba5b2;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 10px;
